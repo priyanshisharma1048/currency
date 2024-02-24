@@ -1,0 +1,277 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  background-color: #112965 !important;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.navbar .nav-item .nav-link {
+  color: #FFFFFFCC !important;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 40px;
+}
+
+.navbar .navbar-brand {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 100px;
+}
+
+.search {
+  background-color: #FFFFFF;
+  padding: 10px 0px 13px 22px;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.search-bar {
+  border: #FFFFFF;
+  border-radius: 0px 50px 50px 0px;
+  width: 400px;
+  height: 48px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  color: #2C2C2C;
+}
+
+.search-bar:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.language {
+  padding-top: 5px;
+  margin-left: 70px;
+  margin-right: 15px;
+}
+
+.language-title {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 5px;
+  padding-right: 15px;
+
+}
+.dropdown {
+  position: relative;
+  top: 15px;
+  left: -80px;
+}
+.transparent-dropdown .dropdown-menu {
+  border: none;
+}
+.transparent-dropdown .dropdown-item {
+  color: black;
+}
+.transparent-dropdown .dropdown-toggle {
+  color: white;
+  background-color: transparent;
+  border: none;
+  position: absolute;
+}
+
+
+.transparent-dropdown .dropdown-toggle:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+
+.sub-header {
+  background-color: #112965;
+  border-top: 1px solid #6991F5;
+  padding: 18px;
+}
+
+.select-field {
+  background-color: #072d65;
+  border: transparent;
+  color: #FFFFFF;
+  cursor: pointer;
+  background-image: url("./images/arrow-down.svg");
+  appearance: none;
+  max-width: 150px;
+}
+
+.select-field:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.justice-heading {
+  margin-top: 10px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;    
+}
+
+.case-page-title {
+  margin-top: 30px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0em;
+  color: #1F9073;
+}
+
+.case-page-description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.recomended-price-section .card {
+  background: #160E4B;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.recomended-price-section .card .card-body {
+  color: #FFFFFF;
+  padding: 5px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #160E4B;
+}
+
+.dollar-price {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #160E4B;
+}
+
+.month {
+  padding-left: 5px;
+  padding-top: 22px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00000099;
+}
+
+.plan-description {
+  padding-top: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00000099;
+}
+
+.get-started {
+  background-color: #24BC94;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.features-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00000099;
+}
+
+.features {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #00000099;
+}
+
+.price-section .card {
+  box-shadow: 0px 8.859651565551758px 26.578954696655273px 0px #0000001A;
+  border-color: #FFFFFF;
+  border-radius: 0px 0px 10px 10px;
+}
+.btn:focus{
+  box-shadow: none;
+}
